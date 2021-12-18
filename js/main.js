@@ -866,3 +866,6 @@ document.addEventListener('DOMContentLoaded', function () {
   refreshFn()
   unRefreshFn()
 })
+document.getElementById('mode-button').addEventListener('click', function () { setTimeout(switchPostChart, 100) })
+document.getElementById('mode-button').addEventListener('click', function () { setTimeout(switchVisitChart, 100) })
+document.getElementById('mode-button').addEventListener('click', function () { switchDarkMode() })
