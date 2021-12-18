@@ -1,3 +1,8 @@
+if (GLOBAL_CONFIG_SITE.title.replace('温泉', '') === '') {
+  document.getElementById('page-name-text').style.display = 'none'
+} else {
+  document.getElementById('page-name-text').innerHTML = GLOBAL_CONFIG_SITE.title.replace('温泉', '')
+}
 document.addEventListener('DOMContentLoaded', function () {
   const $blogName = document.getElementById('site-name')
   let blogNameWidth = $blogName && $blogName.offsetWidth
