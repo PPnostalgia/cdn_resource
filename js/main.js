@@ -583,12 +583,12 @@ document.addEventListener('DOMContentLoaded', function () {
       // document.getElementById('font-text').innerText = newValue
     }
   }
-  document.getElementById('mode-button').addEventListener('click', function () { rightSideFn.scrollToTop() })
+  //document.getElementById('mode-button').addEventListener('click', function () { rightSideFn.scrollToTop() })
   document.getElementById('rightside').addEventListener('click', function (e) {
     const $target = e.target.id || e.target.parentNode.id
     switch ($target) {
       case 'go-up':
-        rightSideFn.scrollToTop()
+        //rightSideFn.scrollToTop()
         break
       case 'rightside_config':
         rightSideFn.showOrHideBtn()
