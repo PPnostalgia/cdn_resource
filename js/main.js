@@ -871,3 +871,7 @@ document.getElementById('mode-button').addEventListener('click', function () { s
 document.getElementById('mode-button').addEventListener('click', function () { setTimeout(switchVisitChart, 100) })
 document.getElementById('mode-button').addEventListener('click', function () { switchDarkMode() })
 */
+document.getElementById('mode-button').addEventListener('click', function () { switchDarkMode() })
+document.getElementById('top-button').addEventListener('click', function () { scrollToTop() })
+document.getElementById('page-name-text').addEventListener('click', function () { scrollToTop() })
+if (document.getElementById('post-url-copy')) document.getElementById('post-url-copy').addEventListener('click', function () { postUrlCopyFn(this) })
