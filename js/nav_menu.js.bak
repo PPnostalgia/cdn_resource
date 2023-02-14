@@ -17,5 +17,4 @@ function percent() {
 
   result <= 99 || (result = 99), (btn.innerHTML = result);
 }
-
-"温泉" == document.title ? document.getElementById("page-name").innerText = "温泉" : document.getElementById("page-name").innerText = document.title.split(" | 温泉")[0]
+"温泉 - 生活明朗，万物可爱" == document.title ? document.getElementById("page-name").innerText = "温泉" : document.getElementById("page-name").innerText = document.title.split(" | 温泉")[0]
